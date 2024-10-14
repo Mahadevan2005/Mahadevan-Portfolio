@@ -8,10 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white">
+    <!-- Header Section -->
     <div class="bg-gradient-to-r from-blue-600 to-blue-400 py-8">
-      <div class="container mx-auto px-12 max-w-3xl">
+      <div class="container mx-auto px-6 sm:px-12 max-w-3xl">
         <header class="flex justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
-          <nav class="text-md inline-flex space-x-4">
+          <nav class="text-sm sm:text-md inline-flex space-x-4">
             <a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a>
             <a href="index.html#about" class="text-gray-700 hover:text-gray-900">About</a>
             <a href="projects.html" class="text-gray-700 hover:text-gray-900">Projects</a>
@@ -22,125 +23,128 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-12 max-w-4xl mt-16">
-      <div class="achievements__content text-center">
-        <h1 class="text-2xl font-bold text-gray-800">Scholastic Milestones</h1>
-      </div>
+    <!-- Achievements Section -->
+    <div class="achievements__content text-center mt-8">
+      <h1 class="text-2xl font-bold text-gray-800">Scholastic Milestones</h1>
+    </div>
 
-      <!-- Achievements Card: IITM BS Degree Admission -->
-      <div class="max-w-4xl mx-auto p-8 mt-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="w-2/5 relative">
-            <img class="w-full h-full object-cover" src="qualifier-cert.png" alt="Project Image" />
+    <!-- Achievement Cards -->
+    <div class="max-w-4xl mx-auto p-4 sm:p-8">
+
+      <!-- Card 1: IITM - BS Degree Admission Letter -->
+      <div class="flex flex-col sm:flex-row bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+        <div class="sm:w-2/5 w-full relative">
+          <img class="w-full h-full object-cover" src="qualifier-cert.png" alt="IITM Admission Letter">
+        </div>
+        <div class="sm:w-3/5 w-full p-6">
+          <h2 class="text-2xl font-bold text-gray-800">IITM - BS Degree Admission Letter</h2>
+          <p class="mt-4 text-gray-600">
+            I am excited to share that after four weeks of intensive preparation, I successfully passed the entrance examination and have been offered admission to the Bachelor of Science program in Data Science and Applications at IIT Madras.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">July-2023</span>
           </div>
-          <div class="w-3/5 p-6">
-            <h2 class="text-2xl font-bold text-gray-800">IITM - BS Degree Admission Letter</h2>
-            <p class="mt-4 text-gray-600">
-              I successfully passed the entrance examination and have been offered admission to the Bachelor of Science program in Data Science and Applications at IIT Madras.
-            </p>
-            <div class="flex flex-wrap gap-2 mt-4">
-              <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">July-2023</span>
-            </div>
-            <div class="flex gap-4 mt-6">
-              <a href="qualifier-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
-            </div>
+          <div class="flex gap-4 mt-6">
+            <a href="qualifier-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
           </div>
         </div>
       </div>
 
-      <!-- Achievements Card: NPTEL Design Thinking -->
-      <div class="max-w-4xl mx-auto p-8 mt-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="w-2/5 relative">
-            <img class="w-full h-full object-cover" src="Nptel-DTP-cert.png" alt="Project Image" />
+      <!-- Card 2: NPTEL - Design Thinking a Primer -->
+      <div class="flex flex-col sm:flex-row bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+        <div class="sm:w-2/5 w-full relative">
+          <img class="w-full h-full object-cover" src="Nptel-DTP-cert.png" alt="NPTEL Design Thinking Certificate">
+        </div>
+        <div class="sm:w-3/5 w-full p-6">
+          <h2 class="text-2xl font-bold text-gray-800">NPTEL - Design Thinking a Primer</h2>
+          <p class="mt-4 text-gray-600">
+            A 4-week course on how to approach a problem and generate solutions that resolve it. Secured "Elite Silver Medal - TOP 5%".
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">March-2023</span>
           </div>
-          <div class="w-3/5 p-6">
-            <h2 class="text-2xl font-bold text-gray-800">NPTEL - Design Thinking a Primer</h2>
-            <p class="mt-4 text-gray-600">
-              Secured "Elite Silver Medal - TOP 5%" in a course on Design Thinking, learning how to approach and solve problems effectively.
-            </p>
-            <div class="flex flex-wrap gap-2 mt-4">
-              <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">March-2023</span>
-            </div>
-            <div class="flex gap-4 mt-6">
-              <a href="Nptel-DTP-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
-            </div>
+          <div class="flex gap-4 mt-6">
+            <a href="Nptel-DTP-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
           </div>
         </div>
       </div>
 
-      <!-- Achievements Card: IITM BS Foundation -->
-      <div class="max-w-4xl mx-auto p-8 mt-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="w-2/5 relative">
-            <img class="w-full h-full object-cover" src="foundation-cert.png" alt="Project Image" />
+      <!-- Card 3: IIT Madras BS Degree - Foundation Certificate -->
+      <div class="flex flex-col sm:flex-row bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+        <div class="sm:w-2/5 w-full relative">
+          <img class="w-full h-full object-cover" src="foundation-cert.png" alt="Foundation Certificate">
+        </div>
+        <div class="sm:w-3/5 w-full p-6">
+          <h2 class="text-2xl font-bold text-gray-800">IIT Madras BS Degree - Foundation Certificate</h2>
+          <p class="mt-4 text-gray-600">
+            Successfully completed the Foundation level of the degree. Expanded my knowledge in the domain of Data Science.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">December-2023</span>
           </div>
-          <div class="w-3/5 p-6">
-            <h2 class="text-2xl font-bold text-gray-800">IIT Madras BS Degree - Foundation Certificate</h2>
-            <p class="mt-4 text-gray-600">
-              Successfully completed the Foundation level of the degree. Gained extensive knowledge in Data Science.
-            </p>
-            <div class="flex flex-wrap gap-2 mt-4">
-              <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">December-2023</span>
-            </div>
-            <div class="flex gap-4 mt-6">
-              <a href="foundation-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
-            </div>
+          <div class="flex gap-4 mt-6">
+            <a href="foundation-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
           </div>
         </div>
       </div>
 
-      <!-- Achievements Card: TCS Virtual Experience -->
-      <div class="max-w-4xl mx-auto p-8 mt-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="w-2/5 relative">
-            <img class="w-full h-full object-cover" src="TCS-cert.png" alt="Project Image" />
+      <!-- Card 4: TCS Virtual Experience Program -->
+      <div class="flex flex-col sm:flex-row bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+        <div class="sm:w-2/5 w-full relative">
+          <img class="w-full h-full object-cover" src="TCS-cert.png" alt="TCS Experience Program">
+        </div>
+        <div class="sm:w-3/5 w-full p-6">
+          <h2 class="text-2xl font-bold text-gray-800">TCS - Virtual Experience Program</h2>
+          <p class="mt-4 text-gray-600">
+            Completed the TCS virtual experience program, learning how TCS engages with clients and analyzes their needs effectively.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">April-2023</span>
           </div>
-          <div class="w-3/5 p-6">
-            <h2 class="text-2xl font-bold text-gray-800">TCS - Virtual Experience Program</h2>
-            <p class="mt-4 text-gray-600">
-              Completed the TCS virtual experience program, learning client analysis and TCS’s engagement with Environmental, Social, and Governance (ESG) efforts.
-            </p>
-            <div class="flex flex-wrap gap-2 mt-4">
-              <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">April-2023</span>
-            </div>
-            <div class="flex gap-4 mt-6">
-              <a href="TCS-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
-            </div>
+          <div class="flex gap-4 mt-6">
+            <a href="TCS-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
           </div>
         </div>
       </div>
 
-      <!-- Achievements Card: NPTEL Research Introduction -->
-      <div class="max-w-4xl mx-auto p-8 mt-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="w-2/5 relative">
-            <img class="w-full h-full object-cover" src="Nptel-IR-cert.png" alt="Project Image" />
+      <!-- Card 5: NPTEL - Introduction to Research -->
+      <div class="flex flex-col sm:flex-row bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+        <div class="sm:w-2/5 w-full relative">
+          <img class="w-full h-full object-cover" src="Nptel-IR-cert.png" alt="NPTEL Research Certificate">
+        </div>
+        <div class="sm:w-3/5 w-full p-6">
+          <h2 class="text-2xl font-bold text-gray-800">NPTEL - Introduction to Research</h2>
+          <p class="mt-4 text-gray-600">
+            A 8-week course on how to conduct formal research. Secured "Elite Silver Medal".
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">April-2023</span>
           </div>
-          <div class="w-3/5 p-6">
-            <h2 class="text-2xl font-bold text-gray-800">NPTEL - Introduction to Research</h2>
-            <p class="mt-4 text-gray-600">
-              Completed an 8-week course on conducting formal research, securing the "Elite Silver Medal."
-            </p>
-            <div class="flex flex-wrap gap-2 mt-4">
-              <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">April-2023</span>
-            </div>
-            <div class="flex gap-4 mt-6">
-              <a href="Nptel-IR-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
-            </div>
+          <div class="flex gap-4 mt-6">
+            <a href="Nptel-IR-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
           </div>
         </div>
       </div>
 
-      <!-- Achievements Card: SQL Workshop -->
-      <div class="max-w-4xl mx-auto p-8 mt-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <div class="w-2/5 relative">
-            <img class="w-full h-full object-cover" src="sql-cert.png" alt="Project Image" />
+      <!-- Card 6: SQL Workshop -->
+      <div class="flex flex-col sm:flex-row bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+        <div class="sm:w-2/5 w-full relative">
+          <img class="w-full h-full object-cover" src="sql-cert.png" alt="SQL Workshop">
+        </div>
+        <div class="sm:w-3/5 w-full p-6">
+          <h2 class="text-2xl font-bold text-gray-800">NPTEL+ - SQL Workshop</h2>
+          <p class="mt-4 text-gray-600">
+            Completed 2-day workshop on cricket analysis using PostgreSQL. Learned how to analyze datasets and extract useful data.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">February-2023</span>
           </div>
-          <div class="w-3/5 p-6">
-            <h2 class="text-2xl font-bold text-gray-800">NPTEL+ - SQL Workshop</h2>
-            <p class="mt-4 text-gray-600">
-              Completed a 2-day workshop on cricket analysis using PostgreSQL, gaining hands-on experience with dataset analysis.
-            </p>
-            <div class="flex flex-wrap
+          <div class="flex gap-4 mt-6">
+            <a href="sql-cert.png" class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-500">View Full Image</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
