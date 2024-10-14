@@ -9,9 +9,9 @@
   </head>
   <body class="bg-white">
     <div class="bg-gradient-to-r from-blue-600 to-blue-400 py-8">
-      <div class="container mx-auto px-12 max-w-3xl">
-        <header class="flex justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
-          <nav class="text-md inline-flex space-x-4">
+      <div class="container mx-auto px-4 md:px-12 max-w-3xl">
+        <header class="flex flex-col md:flex-row justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
+          <nav class="text-md flex flex-col md:inline-flex md:flex-row space-y-2 md:space-y-0 md:space-x-4">
             <a href="#" class="text-blue-700 hover:text-gray-900">Home</a>
             <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
             <a href="projects.html" class="text-gray-700 hover:text-gray-900">Projects</a>
@@ -21,177 +21,108 @@
         </header>
         
         <div class="hero__content text-center mt-16">
-          <h1 class="text-5xl font-extrabold text-white">Mahadevan</h1>
-          <h2 class="text-xl text-white mt-2">Web developer & Designer</h2>
+          <h1 class="text-4xl md:text-5xl font-extrabold text-white">Mahadevan</h1>
+          <h2 class="text-lg md:text-xl text-white mt-2">Web developer & Designer</h2>
         </div>
       </div>
     </div>
 
-      <div class="carousal-container max-w-xl mx-auto mt-8" id="about">
-        <ul class="carousal flex flex-wrap justify-center gap-8">
-          <h3 class="text-2xl font-bold text-gray-800 text-center">Get to Know Me!!</h3>
-          <li class="text-center bg-yellow-50 p-4 rounded-lg shadow">
-            <blockquote class="text-gray-600">
-              I am a dual-degree scholar specializing in web development and UI/UX design, with a growing interest in data science and machine learning. 
-              My skill set blends technical expertise with a creative flair, allowing me to design intuitive and user-focused digital experiences. 
-              I have hands-on experience in both front-end and back-end development, ensuring responsive and impactful solutions. 
-              I’m also passionate about leveraging data and machine learning to drive innovation in my projects. Constantly learning and adapting, 
-              I aim to stay with the trends and bring fresh ideas into everything I build.
-            </blockquote>
-          </li>
-        </ul>
-      </div>
+    <div class="carousel-container max-w-xl mx-auto mt-8 px-4" id="about">
+      <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">Get to Know Me!!</h3>
+      <ul class="carousel flex flex-col md:flex-row justify-center gap-8">
+        <li class="text-center bg-yellow-50 p-4 rounded-lg shadow">
+          <blockquote class="text-gray-600">
+            I am a dual-degree scholar specializing in web development and UI/UX design, with a growing interest in data science and machine learning. 
+            My skill set blends technical expertise with a creative flair, allowing me to design intuitive and user-focused digital experiences. 
+            I have hands-on experience in both front-end and back-end development, ensuring responsive and impactful solutions. 
+            I’m also passionate about leveraging data and machine learning to drive innovation in my projects. Constantly learning and adapting, 
+            I aim to stay with the trends and bring fresh ideas into everything I build.
+          </blockquote>
+        </li>
+      </ul>
+    </div>
 
-      <div class="wrapper mx-auto max-w-2xl py-8 mt-8">
-        <h3 class="text-2xl font-bold text-gray-800 text-center">
-          Tech Stack
-        </h3>
-        <ul class="technologies flex flex-wrap justify-center gap-4 mt-4">
-          <li
-            class="text-center bg-indigo-50 p-4 rounded-lg shadow flex flex-col items-center"
-          >
-            <img
-              src="python-svgrepo-com.svg" alt="Python"
-              class="size-10"
-            />
-            <p class="text-gray-600">Python</p>
-          </li>
-          <li
-            class="text-center bg-emerald-50 p-4 rounded-lg shadow flex flex-col items-center"
-          >
-            <img
-              src="java-svgrepo-com.svg"
-              alt="Java" class="size-10"/>
-            <p class="text-gray-600">Java</p>
-          </li>
-          <li
-            class="text-center bg-teal-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img src="cpp3-svgrepo-com.svg" alt="C++" class="size-10"/>
-            <p class="text-gray-600">C++</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="file:///C:/Users/K.G.Sunil%20Srinivaas/OneDrive/Desktop/All/Projects/Mahadevan's%20Website/Icons-SVG/flask-svgrepo-com.svg"
-              alt="Flask"
-              class="size-10"
-            />
-            <p class="text-gray-600">Flask</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="jinja-svgrepo-com.svg"
-              alt="Jinja"
-              class="size-10"
-            />
-            <p class="text-gray-600">Jinja</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="postgresql-svgrepo-com.svg"
-              alt="PostgreSql"
-              class="size-10"
-            />
-            <p class="text-gray-600">PostgreSql</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="file:///C:/Users/K.G.Sunil%20Srinivaas/OneDrive/Desktop/All/Projects/Mahadevan's%20Website/Icons-SVG/html-5-svgrepo-com.svg"
-              alt="HTML"
-              class="size-10"
-            />
-            <p class="text-gray-600">HTML</p>
-          </li>
-          <li
-            class="text-center bg-green-50 p-4 rounded-lg shadow flex flex-col items-center"
-          >
-            <img
-              src="vuejs-colored.svg"
-              alt="Vue JS"
-              class="size-10"
-            />
-            <p class="text-gray-600">Vue JS</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="css-3-svgrepo-com.svg"
-              alt="CSS"
-              class="size-10"
-            />
-            <p class="text-gray-600">CSS</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="linux-svgrepo-com.svg"
-              alt="Linux"
-              class="size-10"
-            />
-            <p class="text-gray-600">Linux</p>
-          </li>
-          <li
-            class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-            <img
-              src="figma-svgrepo-com.svg"
-              alt="Figma"
-              class="size-10"
-            />
-            <p class="text-gray-600">Figma</p>
-          </li>
+    <div class="wrapper mx-auto max-w-2xl py-8 mt-8 px-4">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Tech Stack</h3>
+      <ul class="technologies grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">
+        <li class="text-center bg-indigo-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="python-svgrepo-com.svg" alt="Python" class="size-10"/>
+          <p class="text-gray-600">Python</p>
+        </li>
+        <li class="text-center bg-emerald-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="java-svgrepo-com.svg" alt="Java" class="size-10"/>
+          <p class="text-gray-600">Java</p>
+        </li>
+        <li class="text-center bg-teal-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="cpp3-svgrepo-com.svg" alt="C++" class="size-10"/>
+          <p class="text-gray-600">C++</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="flask-svgrepo-com.svg" alt="Flask" class="size-10"/>
+          <p class="text-gray-600">Flask</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="jinja-svgrepo-com.svg" alt="Jinja" class="size-10"/>
+          <p class="text-gray-600">Jinja</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="postgresql-svgrepo-com.svg" alt="PostgreSql" class="size-10"/>
+          <p class="text-gray-600">PostgreSql</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="html-5-svgrepo-com.svg" alt="HTML" class="size-10"/>
+          <p class="text-gray-600">HTML</p>
+        </li>
+        <li class="text-center bg-green-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="vuejs-colored.svg" alt="Vue JS" class="size-10"/>
+          <p class="text-gray-600">Vue JS</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="css-3-svgrepo-com.svg" alt="CSS" class="size-10"/>
+          <p class="text-gray-600">CSS</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="linux-svgrepo-com.svg" alt="Linux" class="size-10"/>
+          <p class="text-gray-600">Linux</p>
+        </li>
+        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="figma-svgrepo-com.svg" alt="Figma" class="size-10"/>
+          <p class="text-gray-600">Figma</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="wrapper mx-auto max-w-2xl py-8 mt-8 px-4">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Academics</h3>
+      <div class="bg-gray-50 p-6 rounded-lg shadow mt-4">
+        <h4 class="text-xl font-semibold text-gray-700">B.E Computer Science and Engineering - PSVPEC</h4>
+        <p class="text-gray-600 mt-2">Pursuing Bachelor's in Computer Science and Engineering with a passion to become a Software developer.</p>
+        <ul class="list-disc ml-6 mt-4 text-gray-600">
+          <li>CGPA: 9.42/10</li>
+          <li>Relevant Courses: Data Structures, Algorithms, Artificial Intelligence & Machine Learning, UI/UX Design, Computer Vision</li>
+          <li>Expected Graduation: 2026</li>
+        </ul>
+        <br>
+        <h4 class="text-xl font-semibold text-gray-700">B.S Data Science and Applications - IIT Madras</h4>
+        <p class="text-gray-600 mt-2">Pursuing Bachelor's in Data Science with a keen interest to explore Data science and hone my programming skills.</p>
+        <ul class="list-disc ml-6 mt-4 text-gray-600">
+          <li>CGPA: 8.22/10</li>
+          <li>Relevant Courses: Statistics, Mathematics, Modern Application Development, System Commands, Programming in Java, Database Management Systems.</li>
+          <li>Expected Graduation: 2026</li>
         </ul>
       </div>
-      <div class="wrapper mx-auto max-w-2xl py-8 mt-8">
-        <h3 class="text-2xl font-bold text-gray-800 text-center">Academics</h3>
-        <div class="bg-gray-50 p-6 rounded-lg shadow mt-4">
-          <h4 class="text-xl font-semibold text-gray-700">B.E Computer Science and Engineering - PSVPEC</h4>
-          <p class="text-gray-600 mt-2">
-            Pursuing Bachelor's in Computer Science and Engineering with a passion to become a Software developer.
-          </p>
-          <ul class="list-disc ml-6 mt-4 text-gray-600">
-            <li>CGPA: 9.42/10</li>
-            <li>Relevant Courses: Data Structures, Algorithms, Artificial Intelligence & Machine Learning, UI/UX Design, Computer Vision</li>
-            <li>Expected Graduation: 2026</li>
-          </ul>
-          <br>
-          <h4 class="text-xl font-semibold text-gray-700">B.S Data Science and Applications - IIT Madras</h4>
-          <p class="text-gray-600 mt-2">
-            Pursuing Bachelor's in Data Science with a keen interest to explore Data science and hone my programming skills.
-          </p>
-          <ul class="list-disc ml-6 mt-4 text-gray-600">
-            <li>CGPA: 8.22/10</li>
-            <li>Relevant Courses: Statistics, Mathematics, Mordern Application Development, System Commands, Programming in Java, Database Management Systems.</li>
-            <li>Expected Graduation: 2026</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="wrapper py-8" id="contact">
-        <h3 class="text-2xl font-bold text-gray-800 text-center">
-          Find me at
-        </h3>
-        <ul class="social-websites flex flex-wrap justify-center gap-4 mt-4">
-          <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
-            <a href="https://github.com/Mahadevan2005"><img
-                src="github-svgrepo-com.svg"
-                alt="GitHub"
-                class="size-10"/>
-            </a>
-          </li>
-          <li
-            class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
-            <a href="https://www.linkedin.com/in/m-mahadevan-8966b124a/"
-              ><img
-                src="linkedin-rounded-svgrepo-com.svg"
-                alt="LinkedIn"
-                class="size-10"/>
-            </a>
-          </li>
-        </ul>
-      </div>
+    </div>
+
+    <div class="wrapper py-8 px-4" id="contact">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Find me at</h3>
+      <ul class="social-websites flex flex-wrap justify-center gap-4 mt-4">
+        <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+          <a href="https://github.com/Mahadevan2005"><img src="github-svgrepo-com.svg" alt="GitHub" class="size-10"/></a>
+        </li>
+        <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+          <a href="https://www.linkedin.com/in/m-mahadevan-8966b124a/"><img src="linkedin-rounded-svgrepo-com.svg" alt="LinkedIn" class="size-10"/></a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
