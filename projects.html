@@ -8,10 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white">
+    <!-- Header Section -->
     <div class="bg-gradient-to-r from-blue-600 to-blue-400 py-8">
-      <div class="container mx-auto px-12 max-w-3xl">
-        <header class="flex justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
-          <nav class="text-md inline-flex space-x-4">
+      <div class="container mx-auto px-4 md:px-12 max-w-3xl">
+        <header class="flex flex-col md:flex-row justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
+          <nav class="text-md flex flex-col md:inline-flex md:flex-row space-y-2 md:space-y-0 md:space-x-4">
             <a href="index.html" class="text-gray-700 hover:text-gray-900">Home</a>
             <a href="index.html#about" class="text-gray-700 hover:text-gray-900">About</a>
             <a href="projects.html" class="text-blue-700 hover:text-gray-900">Projects</a>
@@ -19,73 +20,63 @@
             <a href="index.html#contact" class="text-gray-700 hover:text-gray-900">Contact</a>
           </nav>
         </header>
-        </div>
-    </div>
-    <div class="achievements__content text-center mt-16">
-      <h1 class="text-2xl font-bold text-gray-800">Projects</h1>
-  </div>
-    </body>
-</html>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Card</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50">
-    <div class="max-w-4xl mx-auto p-8">
-        <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-            <!-- Image Section -->
-            <div class="w-2/5 relative">
-                <img class="w-full h-full object-cover" src="image.png" alt="Project Image">
-            </div>
-
-            <!-- Content Section -->
-            <div class="w-3/5 p-6">
-                <h2 class="text-3xl font-bold text-gray-800">Blogging Page</h2>
-                <p class="mt-4 text-gray-600">
-                    This is an static blogging page. My first attempt after learning HTML & CSS on my own interest. May be amateur but still it gave me a lot confidence.
-                </p>
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">HTML5</span>
-                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">CSS3</span>
-                </div>
-                <div class="flex gap-4 mt-6">
-                    <a href="https://github.com/Mahadevan2005/Blogging-Page" class="px-4 py-2 bg-gray-100 text-indigo-600 rounded-lg shadow-md hover:bg-gray-200">View Source</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="max-w-4xl mx-auto p-8">
-      <div class="flex bg-white shadow-lg rounded-lg overflow-hidden">
-          <!-- Image Section -->
-          <div class="w-2/5 relative">
-              <img class="w-full h-full object-cover" src="gpay.png" alt="Project Image">
-          </div>
-
-          <!-- Content Section -->
-          <div class="w-3/5 p-6">
-              <h2 class="text-3xl font-bold text-gray-800">UI - Design Case Study on GPay</h2>
-              <p class="mt-4 text-gray-600">
-                Here in this is project I decided to analyse the existing features in GPay and thought of adding an feature on top of it. The feature focuses on implementing "Enable users save money". The UI design of the feature is designed using Figma tool. 
-              </p>
-              <div class="flex flex-wrap gap-2 mt-4">
-                  <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">Figma</span>
-              </div>
-              <div class="flex gap-4 mt-6">
-                  <a href="https://www.figma.com/proto/Px9Hnv39Kcs4a6QVPZ6ZvF/Gpay---Saving-circle-feature?node-id=0-1&t=UCIewlncKHzjU5Ci-1" class="px-4 py-2 bg-gray-100 text-indigo-600 rounded-lg shadow-md hover:bg-gray-200">View Prototype</a>
-              </div>
-          </div>
       </div>
-  </div>
+    </div>
 
-    
+    <!-- Projects Section -->
+    <div class="achievements__content text-center mt-16">
+      <h1 class="text-2xl md:text-3xl font-bold text-gray-800">Projects</h1>
+    </div>
 
-</body>
+    <!-- Project Card 1 -->
+    <div class="max-w-4xl mx-auto p-8">
+      <div class="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+        <!-- Image Section -->
+        <div class="w-full md:w-2/5 relative">
+          <img class="w-full h-full object-cover" src="image.png" alt="Project Image" />
+        </div>
+        <!-- Content Section -->
+        <div class="w-full md:w-3/5 p-6">
+          <h2 class="text-3xl font-bold text-gray-800">Blogging Page</h2>
+          <p class="mt-4 text-gray-600">
+            This is a static blogging page. My first attempt after learning HTML & CSS. Though amateur, it gave me a lot of confidence to pursue further.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">HTML5</span>
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">CSS3</span>
+          </div>
+          <div class="flex gap-4 mt-6">
+            <a href="https://github.com/Mahadevan2005/Blogging-Page" class="px-4 py-2 bg-gray-100 text-indigo-600 rounded-lg shadow-md hover:bg-gray-200">
+              View Source
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="max-w-4xl mx-auto p-8">
+      <div class="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+        <!-- Image Section -->
+        <div class="w-full md:w-2/5 relative">
+          <img class="w-full h-full object-cover" src="gpay.png" alt="Project Image" />
+        </div>
+        <!-- Content Section -->
+        <div class="w-full md:w-3/5 p-6">
+          <h2 class="text-3xl font-bold text-gray-800">UI - Design Case Study on GPay</h2>
+          <p class="mt-4 text-gray-600">
+            I analyzed existing GPay features and proposed an additional feature focused on helping users save money. The UI design for this feature was created using Figma.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-md">Figma</span>
+          </div>
+          <div class="flex gap-4 mt-6">
+            <a href="https://www.figma.com/proto/Px9Hnv39Kcs4a6QVPZ6ZvF/Gpay---Saving-circle-feature?node-id=0-1&t=UCIewlncKHzjU5Ci-1" class="px-4 py-2 bg-gray-100 text-indigo-600 rounded-lg shadow-md hover:bg-gray-200">
+              View Prototype
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
