@@ -5,54 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="monetization" content="$ilp.uphold.com/24HhrUGG7ekn" />
     <title>Mahadevan's Portfolio</title>
-    <!-- Import Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-white">
-    <!-- Header Section -->
-    <header class="bg-gradient-to-r from-blue-600 to-blue-400 py-6">
-      <div class="container mx-auto px-4 md:px-12 max-w-5xl">
-        <nav class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-6">
-          <a href="#" class="text-white text-lg font-medium hover:underline">Home</a>
-          <a href="#about" class="text-white text-lg font-medium hover:underline">About</a>
-          <a href="projects.html" class="text-white text-lg font-medium hover:underline">Projects</a>
-          <a href="achievements.html" class="text-white text-lg font-medium hover:underline">Accomplishments</a>
-          <a href="#contact-form" class="text-white text-lg font-medium hover:underline">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="text-center py-16 bg-gradient-to-b from-blue-400 to-blue-300 text-white">
-      <h1 class="text-4xl md:text-5xl font-extrabold">Mahadevan</h1>
-      <p class="mt-4 text-lg md:text-xl">
-        Upcoming Software Engineer | Web dev | ML enthusiast | Tech Tinkerer
-      </p>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-16 bg-gray-50">
-      <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="text-3xl font-bold text-center text-gray-800">Get to Know Me!!</h2>
-        <div class="mt-8 bg-white p-6 rounded-lg shadow">
-          <p class="text-gray-600 leading-relaxed text-justify">
-            I am a dual-degree scholar specializing in Computer Science and Data Science, with a growing interest in web development and machine learning. My skill set blends technical expertise with a creative flair, allowing me to design intuitive and user-focused digital experiences...
-          </p>
+    <div class="bg-gradient-to-r from-blue-600 to-blue-400 py-8">
+      <div class="container mx-auto px-4 md:px-12 max-w-3xl">
+        <header class="flex flex-col md:flex-row justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
+          <nav class="text-md flex flex-col md:inline-flex md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+            <a href="#" class="text-blue-700 hover:text-gray-900">Home</a>
+            <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
+            <a href="projects.html" class="text-gray-700 hover:text-gray-900">Projects</a>
+            <a href="achievements.html" class="text-gray-700 hover:text-gray-900">Accomplishments</a>
+            <a href="#contact-form" class="text-gray-700 hover:text-gray-900">Contact</a>
+          </nav>
+        </header>
+        
+        <div class="hero__content text-center mt-16">
+          <h1 class="text-4xl md:text-5xl font-extrabold text-white">Mahadevan</h1>
+          <h2 class="text-lg md:text-xl text-white mt-2">Upcoming Software Engineer | Web dev | ML enthusiast | Tech Tinkerer</h2>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Tech Stack Section -->
-    <section class="py-16">
-      <div class="container mx-auto px-4 max-w-5xl">
-        <h2 class="text-3xl font-bold text-center text-gray-800">Tech Stack</h2>
-        <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-8">
-          <!-- Repeat for all technologies -->
-          <li class="text-center bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-            <img src="python-svgrepo-com.svg" alt="Python" class="h-16 mx-auto mb-4" />
-            <p class="text-gray-700">Python</p>
-          </li>
-          <li class="text-center bg-emerald-50 p-4 rounded-lg shadow flex flex-col items-center">
+    <div class="carousel-container max-w-xl mx-auto mt-8 px-4" id="about">
+      <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">Get to Know Me!!</h3>
+      <ul class="carousel flex flex-col md:flex-row justify-center gap-8">
+        <li class="text-center bg-yellow-50 p-4 rounded-lg shadow">
+          <blockquote class="text-gray-600">
+I am a dual-degree scholar specializing in Computer Science and Data Science, with a growing interest in web development and machine learning. 
+My skill set blends technical expertise with a creative flair, allowing me to design intuitive and user-focused digital experiences. 
+I have hands-on experience in both front-end and back-end development, ensuring responsive and impactful solutions.
+I am deeply passionate about problem-solving and love coding, as it gives me the opportunity to apply logical thinking and innovative approaches to solve complex challenges. 
+My enthusiasm for data and machine learning drives me to explore how these technologies can bring transformative value to my projects. 
+Constantly learning and adapting, I aim to stay with the trends and bring fresh ideas into everything I build.
+          </blockquote>
+        </li>
+      </ul>
+    </div>
+
+    <div class="wrapper mx-auto max-w-2xl py-8 mt-8 px-4">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Tech Stack</h3>
+      <ul class="technologies grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">
+        <li class="text-center bg-indigo-50 p-4 rounded-lg shadow flex flex-col items-center">
+          <img src="python-svgrepo-com.svg" alt="Python" class="size-10"/>
+          <p class="text-gray-600">Python</p>
+        </li>
+        <li class="text-center bg-emerald-50 p-4 rounded-lg shadow flex flex-col items-center">
           <img src="java-svgrepo-com.svg" alt="Java" class="size-10"/>
           <p class="text-gray-600">Java</p>
         </li>
@@ -96,74 +94,83 @@
           <img src="figma-svgrepo-com.svg" alt="Figma" class="size-10"/>
           <p class="text-gray-600">Figma</p>
         </li>
+      </ul>
+    </div>
+
+    <div class="wrapper mx-auto max-w-2xl py-8 mt-8 px-4">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Academics</h3>
+      <div class="bg-gray-50 p-6 rounded-lg shadow mt-4">
+        <h4 class="text-xl font-semibold text-gray-700">B.E Computer Science and Engineering - PSVPEC</h4>
+        <p class="text-gray-600 mt-2">Pursuing Bachelor's in Computer Science and Engineering with a passion to become a Software developer.</p>
+        <ul class="list-disc ml-6 mt-4 text-gray-600">
+          <li>CGPA: 9.42/10</li>
+          <li>Relevant Courses: Data Structures, Algorithms, Artificial Intelligence & Machine Learning, UI/UX Design, Computer Vision</li>
+          <li>Expected Graduation: 2026</li>
+        </ul>
+        <br>
+        <h4 class="text-xl font-semibold text-gray-700">B.S Data Science and Applications - IIT Madras</h4>
+        <p class="text-gray-600 mt-2">Pursuing Bachelor's in Data Science and applications with a keen interest to explore Data science and hone my programming skills.</p>
+        <ul class="list-disc ml-6 mt-4 text-gray-600">
+          <li>CGPA: 8.39/10</li>
+          <li>Relevant Courses: Statistics, Mathematics, Modern Application Development, System Commands, Programming in Java, Database Management Systems.</li>
+          <li>Expected Graduation: 2026</li>
         </ul>
       </div>
-    </section>
-
-    <!-- Academics Section -->
-    <section class="py-16 bg-gray-50">
-      <div class="container mx-auto px-4 max-w-4xl">
-        <h2 class="text-3xl font-bold text-center text-gray-800">Academics</h2>
-        <div class="mt-8 bg-white p-6 rounded-lg shadow">
-          <h3 class="text-2xl font-semibold text-gray-700">
-            B.E Computer Science and Engineering - PSVPEC
-          </h3>
-          <ul class="list-disc ml-6 mt-4 text-gray-600">
-              <li>CGPA: 9.42/10</li>
-              <li>Relevant Courses: Data Structures, Algorithms, Artificial Intelligence & Machine Learning, UI/UX Design, Computer Vision</li>
-              <li>Expected Graduation: 2026</li>
-          </ul>
-          <h3 class="text-2xl font-semibold text-gray-700 mt-6">
-            B.S Data Science and Applications - IIT Madras
-          </h3>
-          <ul class="list-disc ml-6 mt-4 text-gray-600">
-            <li>CGPA: 8.39/10</li>
-            <li>Relevant Courses: Statistics, Mathematics, Modern Application Development, System Commands, Programming in Java, Database Management Systems, ML Foundations.</li>
-            <li>Expected Graduation: 2026</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-16">
-      <div class="container mx-auto px-4 max-w-3xl">
-        <h2 class="text-3xl font-bold text-center text-gray-800">Find me at</h2>
-        <div class="mt-8 flex flex-wrap justify-center gap-6">
-          <a href="https://github.com/Mahadevan2005" class="text-center">
-            <img src="github-svgrepo-com.svg" alt="GitHub" class="h-12 mx-auto" />
-            <p class="mt-2 text-gray-700">GitHub</p>
-          </a>
-          <a href="https://www.linkedin.com/in/m-mahadevan-8966b124a/" class="text-center">
-            <img src="linkedin-rounded-svgrepo-com.svg" alt="LinkedIn" class="h-12 mx-auto" />
-            <p class="mt-2 text-gray-700">LinkedIn</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Form -->
-    <section id="contact-form" class="py-16 bg-gray-50">
-      <div class="container mx-auto px-4 max-w-lg">
-        <h2 class="text-3xl font-bold text-center text-gray-800">Contact Me</h2>
-        <form action="https://formspree.io/f/xwpkjadk" method="POST" class="mt-8 bg-white p-6 rounded-lg shadow">
+    </div>
+    
+    <div class="wrapper py-8 px-4" id="contact">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Find me at</h3>
+      <ul class="social-websites flex flex-wrap justify-center gap-4 mt-4">
+        <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+          <a href="https://github.com/Mahadevan2005"><img src="github-svgrepo-com.svg" alt="GitHub" class="size-10"/></a>
+        </li>
+        <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+          <a href="https://www.linkedin.com/in/m-mahadevan-8966b124a/"><img src="linkedin-rounded-svgrepo-com.svg" alt="LinkedIn" class="size-10"/></a>
+        </li>
+      </ul>
+            <div class="wrapper py-8 px-4 bg-gray-50" id="contact-form">
+        <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">Contact Me</h3>
+        <form 
+          action="https://formspree.io/f/xwpkjadk" 
+          method="POST" 
+          class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
           <div class="mb-4">
-            <label for="name" class="block text-gray-700 font-medium">Name</label>
-            <input type="text" id="name" name="name" required class="w-full mt-2 p-3 border rounded-lg" />
+            <label for="name" class="block text-gray-700 font-semibold mb-2">Name:</label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              placeholder="Your Name" 
+              required 
+              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200" />
           </div>
           <div class="mb-4">
-            <label for="email" class="block text-gray-700 font-medium">Email</label>
-            <input type="email" id="email" name="email" required class="w-full mt-2 p-3 border rounded-lg" />
+            <label for="email" class="block text-gray-700 font-semibold mb-2">Email:</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              placeholder="Your Email" 
+              required 
+              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200" />
           </div>
           <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-medium">Message</label>
-            <textarea id="message" name="message" rows="5" required class="w-full mt-2 p-3 border rounded-lg"></textarea>
+            <label for="message" class="block text-gray-700 font-semibold mb-2">Message:</label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="5" 
+              placeholder="Your Message" 
+              required 
+              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200"></textarea>
           </div>
-          <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+          <button 
+            type="submit" 
+            class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
             Send Message
           </button>
         </form>
       </div>
-    </section>
+    </div>
   </body>
 </html>
