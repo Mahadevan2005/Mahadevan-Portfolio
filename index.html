@@ -180,5 +180,12 @@
         </form>
       </div>
     </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+          setTimeout(() => {
+            this.reset();
+          }, 10);  
+        });
+    </script>
   </body>
 </html>
