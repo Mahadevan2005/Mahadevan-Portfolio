@@ -6,191 +6,98 @@
     <meta name="monetization" content="$ilp.uphold.com/24HhrUGG7ekn" />
     <title>Mahadevan's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .gradient-bg {
+        background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      }
+      .nav-link {
+        transition: all 0.3s;
+      }
+      .nav-link:hover {
+        color: #ffffff !important;
+      }
+    </style>
   </head>
-  <body class="bg-black">
-    <div class="bg-gradient-to-r from-blue-600 to-blue-400 py-8">
+  <body class="bg-gray-900 text-gray-100">
+    <div class="gradient-bg py-8 shadow-lg">
       <div class="container mx-auto px-6 sm:px-12 max-w-3xl">
-        <header class="flex justify-center items-center mb-8 p-2 bg-green-50 rounded-lg shadow">
+        <header class="flex justify-center items-center mb-8 p-2 bg-gray-50 rounded-lg shadow-lg">
           <nav class="flex flex-wrap justify-center space-x-4 sm:space-x-8 text-md sm:text-md">
-            <a href="#" class="text-blue-700 hover:text-gray-900">Home</a>
-            <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
-            <a href="projects.html" class="text-gray-700 hover:text-gray-900">Projects</a>
-            <a href="achievements.html" class="text-gray-700 hover:text-gray-900">Accolades</a>
-            <a href="codolio.html" class="text-gray-700 hover:text-gray-900">Codolio</a>
-            <a href="#contact-form" class="text-gray-700 hover:text-gray-900">Contact</a>
+            <a href="#" class="nav-link text-gray-900 hover:text-blue-600">Home</a>
+            <a href="#about" class="nav-link text-gray-900 hover:text-blue-600">About</a>
+            <a href="projects.html" class="nav-link text-gray-900 hover:text-blue-600">Projects</a>
+            <a href="achievements.html" class="nav-link text-gray-900 hover:text-blue-600">Accolades</a>
+            <a href="codolio.html" class="nav-link text-gray-900 hover:text-blue-600">Codolio</a>
+            <a href="#contact-form" class="nav-link text-gray-900 hover:text-blue-600">Contact</a>
           </nav>
         </header>
         
         <div class="hero__content text-center mt-16">
-          <h1 class="text-4xl md:text-5xl font-extrabold text-white mt-4">Mahadevan M</h1>
-          <h2 class="text-lg md:text-xl text-white mt-2">Upcoming Software Engineer | Problem solver | Web dev | ML enthusiast | Tech tinkerer</h2>
+          <h1 class="text-5xl font-extrabold text-white">Mahadevan M</h1>
+          <h2 class="text-lg md:text-xl text-gray-200 mt-2">Upcoming Software Engineer | Problem Solver | Web Dev | ML Enthusiast | Tech Tinkerer</h2>
         </div>
       </div>
     </div>
     
-
-    <div class="carousel-container max-w-3xl mx-auto mt-8 px-4" id="about">
-      <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">Get to Know Me!!</h3>
-      <ul class="carousel flex flex-col md:flex-row justify-center gap-8">
-        <li class="text-center bg-yellow-50 p-4 rounded-lg shadow">
-          <blockquote class="text-gray-600">
-            I am a Computer Science and Data Science student passionate about software development, coding, and problem-solving. I enjoy writing code, applying logical thinking, and exploring how technology can be used to build effective solutions.
-            Currently on the path to becoming a software development engineer, I have experience working with both front-end and back-end technologies, allowing me to develop functional and user-friendly applications. 
-            I am also exploring data-driven approaches and learning machine learning to expand my technical skill set.
-            I believe in continuous learning and improving my problem-solving abilities, whether through competitive coding, personal projects, or staying updated with industry trends. 
-            I am always looking for opportunities to refine my skills and take on new challenges in the field of software development.
-          </blockquote>
-        </li>
-      </ul>
-    </div>
-
-    <div class="wrapper mx-auto max-w-2xl py-8 mt-8 px-4">
-      <h3 class="text-2xl font-bold text-gray-800 text-center">Tech Skills & Tools</h3>
-      <ul class="technologies grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="java-svgrepo-com.svg" alt="Java" class="size-10"/>
-          <p class="text-gray-600">Java</p>
-        </li>
-        <li class="text-center bg-indigo-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="python-svgrepo-com.svg" alt="Python" class="size-10"/>
-          <p class="text-gray-600">Python</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="flask-svgrepo-com.svg" alt="Flask" class="size-10"/>
-          <p class="text-gray-600">Flask</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="jinja-svgrepo-com.svg" alt="Jinja" class="size-10"/>
-          <p class="text-gray-600">Jinja</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="html-5-svgrepo-com.svg" alt="HTML" class="size-10"/>
-          <p class="text-gray-600">HTML</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg" alt="Vue JS" class="size-10"/>
-          <p class="text-gray-600">Vue JS</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="css-3-svgrepo-com.svg" alt="CSS" class="size-10"/>
-          <p class="text-gray-600">CSS</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="js-official-svgrepo-com.svg" alt="Js" class="size-10"/>
-          <p class="text-gray-600">JavaScript</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="linux-svgrepo-com.svg" alt="Linux" class="size-10"/>
-          <p class="text-gray-600">Linux</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="salesforce-svgrepo-com.svg" alt="salesforce" class="size-10"/>
-          <p class="text-gray-600">Salesforce</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="Redis.svg" alt="Redis" class="size-10"/>
-          <p class="text-gray-600">Redis</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="vs-code-svgrepo-com.svg" alt="Vs code" class="size-10"/>
-          <p class="text-gray-600">VS Code</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="postgresql-svgrepo-com.svg" alt="PostgreSql" class="size-10"/>
-          <p class="text-gray-600">PostgreSql</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="vercel-svgrepo-com.svg" alt="vercel" class="size-10"/>
-          <p class="text-gray-600">Vercel</p>
-        </li>
-        <li class="text-center bg-sky-50 p-4 rounded-lg shadow flex flex-col items-center">
-          <img src="figma-svgrepo-com.svg" alt="Figma" class="size-10"/>
-          <p class="text-gray-600">Figma</p>
-        </li>
-      </ul>
-    </div>
-
-    <div class="wrapper mx-auto max-w-2xl py-8 mt-8 px-4">
-      <h3 class="text-2xl font-bold text-gray-800 text-center">Education</h3>
-      <div class="bg-gray-50 p-6 rounded-lg shadow mt-4">
-        <h4 class="text-xl font-semibold text-gray-700">B.E Computer Science and Engineering - PSVPEC</h4>
-        <p class="text-gray-600 mt-2">Pursuing Bachelor's in Computer Science and Engineering with a passion to become a Software developer.</p>
-        <ul class="list-disc ml-6 mt-4 text-gray-600">
-          <li>CGPA: 9.42/10</li>
-          <li>Relevant Courses: Data Structures, Algorithms, Artificial Intelligence & Machine Learning, UI/UX Design, Computer Vision</li>
-          <li>Graduating in: 2026</li>
-        </ul>
-        <br>
-        <h4 class="text-xl font-semibold text-gray-700">B.S Data Science and Applications - IIT Madras</h4>
-        <p class="text-gray-600 mt-2">Pursuing Bachelor's in Data Science and applications with a keen interest to explore Data science and hone my programming skills.</p>
-        <ul class="list-disc ml-6 mt-4 text-gray-600">
-          <li>CGPA: 8.39/10</li>
-          <li>Relevant Courses: Statistics, Mathematics, Modern Application Development, System Commands, Programming in Java, Database Management Systems.</li>
-          <li>Graduating in: 2026</li>
-        </ul>
+    <div class="carousel-container max-w-3xl mx-auto mt-12 px-6">
+      <h3 class="text-3xl font-bold text-gray-100 text-center mb-6">Get to Know Me</h3>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <p class="text-gray-300 leading-relaxed">
+          I am a Computer Science and Data Science student passionate about software development, coding, and problem-solving. I enjoy writing code, applying logical thinking, and exploring how technology can be used to build effective solutions.
+        </p>
       </div>
     </div>
     
-    <div class="wrapper py-8 px-4" id="contact">
-      <h3 class="text-2xl font-bold text-gray-800 text-center">Find me at</h3>
-      <ul class="social-websites flex flex-wrap justify-center gap-4 mt-4">
-        <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
-          <a href="https://github.com/Mahadevan2005"><img src="github-svgrepo-com.svg" alt="GitHub" class="size-10"/></a>
+    <div class="wrapper mx-auto max-w-2xl py-12 px-6">
+      <h3 class="text-3xl font-bold text-gray-100 text-center">Tech Skills & Tools</h3>
+      <ul class="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-6">
+        <li class="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center">
+          <img src="java-svgrepo-com.svg" alt="Java" class="w-10"/>
+          <p class="text-gray-300 mt-2">Java</p>
         </li>
-        <li class="text-center bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
-          <a href="https://www.linkedin.com/in/m-mahadevan-8966b124a/"><img src="linkedin-rounded-svgrepo-com.svg" alt="LinkedIn" class="size-10"/></a>
+        <li class="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center">
+          <img src="python-svgrepo-com.svg" alt="Python" class="w-10"/>
+          <p class="text-gray-300 mt-2">Python</p>
+        </li>
+        <li class="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center">
+          <img src="flask-svgrepo-com.svg" alt="Flask" class="w-10"/>
+          <p class="text-gray-300 mt-2">Flask</p>
+        </li>
+        <li class="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center">
+          <img src="jinja-svgrepo-com.svg" alt="Jinja" class="w-10"/>
+          <p class="text-gray-300 mt-2">Jinja</p>
         </li>
       </ul>
-            <div class="wrapper py-8 px-4 bg-gray-50" id="contact-form">
-        <h3 class="text-2xl font-bold text-gray-800 text-center mb-4">Contact Me</h3>
-        <form 
-          action="https://formspree.io/f/xwpkjadk" 
-          method="POST" 
-          class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
-          <div class="mb-4">
-            <label for="name" class="block text-gray-700 font-semibold mb-2">Name:</label>
-            <input 
-              type="text" 
-              id="name" 
-              name="name" 
-              placeholder="Your Name" 
-              required 
-              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200" />
-          </div>
-          <div class="mb-4">
-            <label for="email" class="block text-gray-700 font-semibold mb-2">Email:</label>
-            <input 
-              type="email" 
-              id="email" 
-              name="email" 
-              placeholder="Your Email" 
-              required 
-              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200" />
-          </div>
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-semibold mb-2">Message:</label>
-            <textarea 
-              id="message" 
-              name="message" 
-              rows="5" 
-              placeholder="Your Message" 
-              required 
-              class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200"></textarea>
-          </div>
-          <button 
-            type="submit" 
-            class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
-            Send Message
-          </button>
-        </form>
-      </div>
     </div>
-    <script>
-        document.querySelector('form').addEventListener('submit', function(event) {
-          setTimeout(() => {
-            this.reset();
-          }, 2000);  
-        });
-    </script>
+    
+    <div class="wrapper mx-auto max-w-2xl py-12 px-6">
+      <h3 class="text-3xl font-bold text-gray-100 text-center">Find me at</h3>
+      <ul class="flex justify-center gap-6 mt-6">
+        <li class="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center">
+          <a href="https://github.com/Mahadevan2005"><img src="github-svgrepo-com.svg" alt="GitHub" class="w-10"/></a>
+        </li>
+        <li class="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col items-center">
+          <a href="https://www.linkedin.com/in/m-mahadevan-8966b124a/"><img src="linkedin-rounded-svgrepo-com.svg" alt="LinkedIn" class="w-10"/></a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="wrapper py-12 px-6 bg-gray-800" id="contact-form">
+      <h3 class="text-3xl font-bold text-gray-100 text-center mb-6">Contact Me</h3>
+      <form action="https://formspree.io/f/xwpkjadk" method="POST" class="max-w-lg mx-auto bg-gray-900 p-6 rounded-lg shadow-lg">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-300 font-semibold mb-2">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required class="w-full p-3 bg-gray-700 border border-gray-600 rounded text-gray-100"/>
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-300 font-semibold mb-2">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required class="w-full p-3 bg-gray-700 border border-gray-600 rounded text-gray-100"/>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
   </body>
 </html>
