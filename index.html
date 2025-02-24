@@ -6,69 +6,16 @@
     <meta name="monetization" content="$ilp.uphold.com/24HhrUGG7ekn" />
     <title>Mahadevan's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            background-color: #121212;
-            color: #e0c097;
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: linear-gradient(90deg, #1e1e1e, #2a2a2a);
-            padding: 20px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: #f8d49d;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        .section {
-            background-color: #1f1f1f;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease-in-out;
-        }
-        .section:hover {
-            transform: scale(1.02);
-        }
-        h2 {
-            color: #f8d49d;
-            text-transform: uppercase;
-        }
-        p {
-            color: #d3b48b;
-            line-height: 1.6;
-        }
-        a {
-            color: #ffcc70;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        a:hover {
-            color: #ffae42;
-        }
-        .btn {
-            background: #f8d49d;
-            color: #121212;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .btn:hover {
-            background: #ffae42;
-        }
-    </style>
+    <button id="dark-mode-toggle" class="fixed bottom-5 right-5 p-3 bg-gray-700 text-white rounded-full">
+    🌙
+</button>
+<script>
+    const toggle = document.getElementById('dark-mode-toggle');
+    toggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+    });
+</script>
+
   </head>
   <body class="bg-white">
     <div class="bg-gradient-to-r from-blue-600 to-blue-400 py-8">
